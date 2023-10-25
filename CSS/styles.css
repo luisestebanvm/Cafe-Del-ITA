@@ -9,6 +9,8 @@ body{
     font-family: Arial, Helvetica, sans-serif
 }
 
+/*Encabezado------------------------------------------------*/
+
 .encabezado{
     color: rgb(255, 225, 212);
     padding: 30px 30px;
@@ -25,8 +27,8 @@ body{
 }
 
 .logonav{
-    margin: 10px; 
-    height:92px;
+    margin-left: 19px; 
+    height:116px;
     border-radius: 25px;
 }
 
@@ -61,13 +63,15 @@ nav > a:hover{
 }
 
 main{
-    background-color: rgb(153, 92, 66);
+    background: rgb(127,120,255);
+    background: linear-gradient(90deg, rgba(127,120,255,1) 0%, rgba(255,133,101,1) 100%);
     border-top: 7px solid #21010c;
-
 }
 
+/* Logo y eslogan ITA ------------rgb(153, 92, 66)--------------------*/
+
 .escudo-ita{
-    height: 200px;
+    height: 320px;
     margin: 20px;
     border-radius: 50px;
 }
@@ -75,59 +79,59 @@ main{
 .infoita{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: #0c0d4e;
-
+    color: #191947;
+    padding: 100px;
 }
 
 .infoita p{
     color: #21010c; 
-    font-size: 15px;
+    font-size: 17px;
 }
 
-.imagen-estudiantes{
-    height: 350px;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-}
-.infocafe{
-    text-align: center;
-    color: #21010c;
-    margin-bottom: 100px;
-}
-
-.infocafe p{
-    color: #e2c3c3;
-}
+/* Titulo e información --------------------------*/
 
 .title-infocafe{
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.title-t{
-    font-size: 40px;
-    margin-top: 80px;
-    margin-bottom: 30px;
+    font-size: 46px;
     color: #21010c;
 }
 
-.tipos-de-cafe{
+.infocafe{
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 90px;
-    color: #e2c3c3;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.title-tipos{
-    margin-bottom: 10px;
+.infocafe h3{
+    color: #811111;
+}
+
+.infocafe h4{
+    color: #610e23;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.informacion{
+    padding-top: 60px;
+}
+
+.informacion h2{
     color: #21010c;
+    padding: 30px;
+    font-size: 40px;
 }
 
-.muestra-cafe{
-    height: 200px;
-    margin: 10px;
-    margin-top: 90px;
+.informacion p{
+    color: #610e23;
+    font-size: 20px;
 }
+
+.inf{
+    padding: 30px;
+}
+
+/* Boton de tienda -------------------------------*/
 
 .productos{
     text-align: center;
@@ -151,6 +155,8 @@ main{
     border: #21010c;
     border-style: double;
 }
+
+/* Footer y menu--------------------------------*/
 
 footer{
     color: #fff;
@@ -199,6 +205,10 @@ footer{
     margin-top: 60px;
 }
 
+.logocafedecolombia{
+    height: 65px;
+}
+
 .foot{
     color: #fff;
     font-size: 10px;
@@ -207,7 +217,32 @@ footer{
     margin-bottom: 3px;
 }
 
-/* TIENDA----------------------------------------------------------------------- */
+/* Carrusel -----------------------------------------*/
+
+.CarruselG {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: 8px solid #21010c;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* TIENDA----------------------------------------------------------------------------------- */
 
 main h1{
     font-size: 70px;
@@ -253,4 +288,35 @@ main h3{
 
 .bolsas{
     border-radius: 15px;
+}
+
+.descripcionpro{
+    padding: 20px 20;
+    display: flex;
+}
+
+.desc{
+    margin: 50px 10px 70px 100px;
+}
+
+.desc h2{
+    padding-bottom: 20px;
+    color: #21010c;
+}
+
+.desc h4{
+    color: #000000;
+}
+
+/* Contacto----------------------------------------------------------------------------------- */
+
+.contacto{
+    text-align: center;
+}
+
+/* Sobre nosotros------------------------------------------------------------------------------*/
+
+.sobre-nosotros{
+    text-align: center;
+    margin: 30px;
 }
